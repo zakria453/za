@@ -73,7 +73,7 @@ body {
     color: white;
     border-radius: 8px;
     font-weight: bold;
-    transition: background 0.3s, transform 0.3s;
+    transition:  0.3s, transform 0.3s;
   }
   .btn-primary:hover {
     background: #2563eb;
@@ -113,4 +113,5 @@ body {
   }
   @keyframes blink {
     50% { border-color: transparent; }
+
   }
