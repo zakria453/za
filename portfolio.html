@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zakria Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body class="bg-white text-black">
+
+  <!-- Header -->
+  <header class="text-center py-12 fade-in">
+    <h1 class="text-5xl font-bold mb-2">Hi, I'm <span class="text-blue-500">Zakria</span></h1>
+    <!-- Typing animation -->
+    <p class="text-lg text-gray-600">
+      <span id="typing"></span>
+    </p>
+    <button id="darkToggle" class="mt-6 px-6 py-2 bg-gray-300 rounded shadow hover:bg-gray-400 transition">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <!-- About -->
+  <section class="section">
+    <h2 class="section-title">About Me</h2>
+    <p class="text-lg text-gray-700 leading-relaxed">
+      I’m a passionate web developer specializing in <strong>front-end</strong> development and design. 
+      I love creating modern, interactive, and clean interfaces using 
+      <span class="font-semibold">HTML, CSS, JavaScript</span>, and <span class="font-semibold">Tailwind CSS</span>.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="section">
+    <h2 class="section-title">Skills</h2>
+    <ul class="grid grid-cols-2 gap-4">
+      <li class="skill-card">HTML</li>
+      <li class="skill-card">CSS</li>
+      <li class="skill-card">JavaScript</li>
+      <li class="skill-card">Tailwind CSS</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid gap-6">
+      <div class="project-card">
+        <h3 class="font-semibold text-xl">Project One</h3>
+        <p>A clean responsive website template built with Tailwind CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3 class="font-semibold text-xl">Project Two</h3>
+        <p>A portfolio layout for developers and freelancers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="space-y-4 max-w-lg mx-auto">
+      <input type="text" placeholder="Your Name" class="form-input">
+      <input type="email" placeholder="Your Email" class="form-input">
+      <textarea placeholder="Your Message" class="form-input"></textarea>
+      <button type="submit" class="btn-primary">Send</button>
+    </form>
+  </section>
+
+  <!-- Social Media -->
+  <footer class="text-center py-8 fade-in">
+    <h3 class="text-lg font-semibold mb-3">Follow Me</h3>
+    <div class="flex justify-center space-x-8 text-3xl">
+      <a href="https://www.tiktok.com/@khanzakri1" target="_blank" class="social-icon tiktok"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.facebook.com/zakria.khan.108154?mibextid=ZbWKwL" target="_blank" class="social-icon facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://wa.me/923321514130" target="_blank" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/itx_khan882?igsh=Y3ZhOGFsazNpcHFh" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
